@@ -90,9 +90,8 @@ h4 {
 footer {
   height: 250px;
   width: 50%;
-  background-color: black transparent 10%;
   position: absolute;
-  top: 80%;
+  top: 70%;
 }
 .info {
   position: absolute;
