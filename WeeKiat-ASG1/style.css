@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.first-content {
+  height: 100vh;
+  width: 100%;
+  background-image: url('img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  background-color:black;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color:white;
+  font-size: 35px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: .4s;
+}
+
+.content {
+  position: absolute;
+  top: 45%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  border: 2px sold transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+}
+
+h1 {
+  color:white;
+  margin: 20px 0px 20px;
+  font-size: 95px;
+}
+
+h3 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+footer {
+  height: 250px;
+  width: 50%;
+  background-color: black transparent 10%;
+  position: absolute;
+  top: 80%;
+}
+.info {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+.social a{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  margin: 22px 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.copy{
+  font-size: 15px;
+}
+
+.second-content {
+  height: 100vh;
+  width: 100%;
+  background-color:black;
+  height: 100vh;
+  width: 100%;
+}
+
+article {
+  background-color: white;
+}
