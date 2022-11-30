@@ -17,7 +17,7 @@ body {
   background-image: url('img/bg.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 115vh;
   width: 100%;
 }
 
@@ -94,7 +94,7 @@ footer {
   height: 250px;
   width: 50%;
   position: absolute;
-  top: 60%;
+  top: 80%;
 }
 .info {
   position: absolute;
@@ -283,3 +283,14 @@ article {
   filter: grayscale(100%);
 }
 
+left-content {
+  position: absolute;
+  top: 50px;
+  right: 50%;
+  left: 8%;
+}
+
+right-content {  
+  position:absolute;
+  right: 50%;
+}
