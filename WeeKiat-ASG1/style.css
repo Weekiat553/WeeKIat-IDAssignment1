@@ -84,6 +84,9 @@ h3 {
   font-size: 45px;
   margin-bottom: 50px;
 }
+h2 {
+  color: white;
+}
 
 h4 {
   color: #fcfc;
@@ -103,7 +106,7 @@ footer {
 }
 .info2 {
   position: absolute;
-  top: 520%;
+  top: 20%;
   left: 15%;
 }
 p {
@@ -283,14 +286,8 @@ article {
   filter: grayscale(100%);
 }
 
-left-content {
-  position: absolute;
-  top: 50px;
-  right: 50%;
-  left: 8%;
-}
-
-right-content {  
+content {
   position:absolute;
-  right: 50%;
+  top: 15%;
+  left: 8%;
 }
