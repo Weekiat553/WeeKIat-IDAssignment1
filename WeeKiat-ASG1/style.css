@@ -367,3 +367,8 @@ img{
   border-radius: 8px;
   box-shadow: -1px 5px 15px black;
 }
+
+#text {
+  color: orange;
+  font-size: 40px;
+}
