@@ -356,3 +356,14 @@ img{
       transform: translateX(-300%);
   }
 }
+
+.container2{
+  background-color: #454545;
+  width: 500px;
+  position: absolute;
+  top: 25%;
+  left: 34%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: -1px 5px 15px black;
+}
