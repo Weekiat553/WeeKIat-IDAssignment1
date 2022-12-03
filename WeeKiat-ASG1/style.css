@@ -437,3 +437,10 @@ img{
   }
 
 }
+
+@media (max-width: 750px) {
+  .container2 {
+    position: absolute;
+    left: 1%
+  }
+}
