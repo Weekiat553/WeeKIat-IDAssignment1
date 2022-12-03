@@ -391,22 +391,30 @@ img{
     top: 10%;
     left: 15%;
   }
-
-  footer {
+  .info2 {
     position: absolute;
-    top: 70%;
+    top: 450%;
+    left: 15%;
   }
+
   nav {
     display:flex;
 
   }
 
   .first-content {
-    width: 50%;
     background-image: url('img/bg.jpg');
     background-size: cover;
     background-position: center;
     height: 135vh;
-    width: 100%;
+    width: 50%;
+  }
+
+  .second-content {
+    background-image: url('img/bgg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 135vh;
+    width: 50%;
   }
 }
