@@ -417,4 +417,23 @@ img{
     height: 135vh;
     width: 50%;
   }
+  .port-work1 {
+    width: auto;
+    height: auto;
+  }
+  
+}
+
+@media (max-width: 1440px) {
+.container {
+  position: absolute;
+  top: 110%;
+  left: -1%;
+  }
+  .info3 {
+    position: absolute;
+    top: 350%;
+    left: 15%;
+  }
+
 }
