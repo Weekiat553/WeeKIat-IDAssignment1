@@ -1,5 +1,5 @@
 # WeeKiat-ASG1
-<h1> Jonatha's Portfolio </h1>
+<h1> Jonathan's Portfolio </h1>
 <h4>Project Description</h4>
 <p> My project is about a website on portfolio so that employers or even other people can look through the information of this person or to look up at projects that the person have included in his/her website. Having a portfolio website is a good way to impress employers as they know you have knowledge of HTML which might be beneficial to the company. </p>
 
