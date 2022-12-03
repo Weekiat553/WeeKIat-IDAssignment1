@@ -9,6 +9,7 @@
 }
 body {
   background-color: black;
+
 }
 
 .first-content {
@@ -173,6 +174,7 @@ article {
   top: 90%;
 }
 
+/* Interactive timeline */
 #timeline {
   display: flex;
   background-color: #111111;
@@ -371,4 +373,40 @@ img{
 #text {
   color: orange;
   font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .home-btn {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .social {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .info {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+
+  footer {
+    position: absolute;
+    top: 70%;
+  }
+  nav {
+    display:flex;
+
+  }
+
+  .first-content {
+    width: 50%;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 135vh;
+    width: 100%;
+  }
 }
