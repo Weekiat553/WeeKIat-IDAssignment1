@@ -26,7 +26,7 @@
         <div id="text"></div>
         <p>Get in touch with me and I will reply within 24 hours!</p>
         <fieldset>
-          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          <input placeholder="Your name" type="txtName" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
           <input placeholder="Your Email Address" type="email" tabindex="2" required>
@@ -38,26 +38,11 @@
           <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          <button name="submit" type="submit" id="btnSubmit" data-submit="...Sending">Submit</button>
         </fieldset>
       </div>
       </form>
 
 </body>
-<script>
-var string = "Get in touch with me!!"; /* type your text here */
-var array = string.split("");
-var timer;
-
-function frameLooper () {
-	if (array.length > 0) {
-		document.getElementById("text").innerHTML += array.shift();
-	} else {
-		clearTimeout(timer);
-			}
-	loopTimer = setTimeout('frameLooper()',70); /* change 70 for speed */
-
-}
-frameLooper();
-</script>
+<script src="index.js"></script>
 </html>
